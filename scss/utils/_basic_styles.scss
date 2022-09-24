@@ -1,0 +1,18 @@
+body {
+  font-family: $font-main;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+  color: $color-main;
+  background-color: $color-white;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.section {
+  padding: 94px 0px;
+}

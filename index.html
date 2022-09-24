@@ -19,43 +19,43 @@
   </head>
   <body>
     <header class="header">
-      <div class="container container-nav">
+      <div class="container header__container">
         <nav class="nav-panel">
-          <a class="nav-logo" href="./index.html"
+          <a class="main-logo" href="./index.html"
             ><span class="color-modify">Web</span>Studio</a
           >
-          <ul class="nav-menu">
-            <li class="nav-menu-item" tabindex="0">
-              <a class="nav-menu-link color-modify" href="./index.html"
+          <ul class="nav-panel__menu">
+            <li class="nav-panel__item" tabindex="0">
+              <a class="nav-panel__link color-modify" href="./index.html"
                 >Студія</a
               >
             </li>
-            <li class="nav-menu-item" tabindex="0">
-              <a class="nav-menu-link" href="./portfolio.html">Портфоліо</a>
+            <li class="nav-panel__item" tabindex="0">
+              <a class="nav-panel__link" href="./portfolio.html">Портфоліо</a>
             </li>
-            <li class="nav-menu-item" tabindex="0">
-              <a class="nav-menu-link" href="#">Контакти</a>
+            <li class="nav-panel__item" tabindex="0">
+              <a class="nav-panel__link" href="#">Контакти</a>
             </li>
           </ul>
         </nav>
         <ul class="contacts-list">
-          <li class="contacts-item" tabindex="0">
-            <svg class="contacts-logo" width="16" height="12">
+          <li class="contacts-list__item" tabindex="0">
+            <svg class="contacts-list__logo" width="16" height="12">
               <use
                 href="./images/svg__sprite/symbol-defs.svg#icon-envelope"
               ></use>
             </svg>
-            <a class="contacts-link" href="mailto:info@devstudio.com"
+            <a class="contacts-list__link" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
-          <li class="contacts-item" tabindex="0">
-            <svg class="contacts-logo" width="10" height="16">
+          <li class="contacts-list__item" tabindex="0">
+            <svg class="contacts-list__logo" width="10" height="16">
               <use href="./images/svg__sprite/symbol-defs.svg#icon-smartphone">
                 >
               </use>
             </svg>
-            <a class="contacts-link" href="tel:+380961111111"
+            <a class="contacts-list__link" href="tel:+380961111111"
               >+38 096 111 11 11</a
             >
           </li>
@@ -63,108 +63,101 @@
       </div>
     </header>
     <main class="main">
-      <div class="bg-container">
-        <section class="container section main-page">
-          <h1 class="main-title">Ефективні рішення для вашого бізнесу</h1>
-          <button
-            class="btn-primary"
-            type="button"
-            tabindex="0"
-            data-modal-open
-          >
+      <section class="hero section">
+        <div class="container hero__container">
+          <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
+          <button class="btn-submit" type="button" tabindex="0" data-modal-open>
             Замовити послугу
           </button>
-        </section>
-      </div>
-      <section class="container section company-advantages">
+        </div>
+      </section>
+      <section class="container section advantages">
         <!--сховати заголовок-->
-        <h2 class="section-title" hidden>Наші переваги</h2>
-        <ul class="advantages-list">
-          <li class="advantages-item">
-            <div class="advantages-container-icon">
-              <svg class="advantages-icon" width="70" height="70">
+        <h2 class="advantages__title" hidden>Наші переваги</h2>
+        <ul class="advantages__list">
+          <li class="advantages__item">
+            <div class="advantages__container-icon">
+              <svg class="advantages__icon" width="70" height="70">
                 <use
                   href="./images/svg__sprite/symbol-defs.svg#icon-antenna-1"
                 ></use>
               </svg>
             </div>
-            <h3 class="advantages-title">УВАГА ДО ДЕТАЛЕЙ</h3>
-            <p class="advantages-description">
+            <h3 class="advantages__subtitle">УВАГА ДО ДЕТАЛЕЙ</h3>
+            <p class="advantages__description">
               Ідейні міркування, і навіть початок повсякденної роботи з
               формування позиції.
             </p>
           </li>
-          <li class="advantages-item">
-            <div class="advantages-container-icon">
-              <svg class="advantages-icon" width="70" height="70">
+          <li class="advantages__item">
+            <div class="advantages__container-icon">
+              <svg class="advantages__icon" width="70" height="70">
                 <use
                   href="./images/svg__sprite/symbol-defs.svg#icon-clock-1"
                 ></use>
               </svg>
             </div>
-            <h3 class="advantages-title">ПУНКТУАЛЬНІСТЬ</h3>
-            <p class="advantages-description">
+            <h3 class="advantages__subtitle">ПУНКТУАЛЬНІСТЬ</h3>
+            <p class="advantages__description">
               Завдання організації, особливо рамки і місце навчання кадрів тягне
               у себе.
             </p>
           </li>
-          <li class="advantages-item">
-            <div class="advantages-container-icon">
-              <svg class="advantages-icon" width="70" height="70">
+          <li class="advantages__item">
+            <div class="advantages__container-icon">
+              <svg class="advantages__icon" width="70" height="70">
                 <use
                   href="./images/svg__sprite/symbol-defs.svg#icon-diagram-1"
                 ></use>
               </svg>
             </div>
-            <h3 class="advantages-title">ПЛАНУВАННЯ</h3>
-            <p class="advantages-description">
+            <h3 class="advantages__subtitle">ПЛАНУВАННЯ</h3>
+            <p class="advantages__description">
               Так само консультація з широким активом значною мірою зумовлює.
             </p>
           </li>
-          <li class="advantages-item">
-            <div class="advantages-container-icon">
-              <svg class="advantages-icon" width="70" height="70">
+          <li class="advantages__item">
+            <div class="advantages__container-icon">
+              <svg class="advantages__icon" width="70" height="70">
                 <use
                   href="./images/svg__sprite/symbol-defs.svg#icon-astronaut-1"
                 ></use>
               </svg>
             </div>
-            <h3 class="advantages-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-            <p class="advantages-description">
+            <h3 class="advantages__subtitle">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+            <p class="advantages__description">
               Значимість цих проблем настільки очевидна, що реалізація планових
               завдань.
             </p>
           </li>
         </ul>
       </section>
-
       <section class="container section work-proccess">
-        <h2 class="work-proccess-title">Чим ми займаємося</h2>
-        <ul class="work-proccess-list">
-          <li class="work-proccess-item">
+        <h2 class="work-proccess__title">Чим ми займаємося</h2>
+        <ul class="work-proccess__list">
+          <li class="work-proccess__item">
             <img
               src="./images/our_team/what_we_do_pic1.jpg"
               alt="людина друкує на клавіатурі"
               width="370"
             />
-            <h3 class="proccess-subtitle">Десктопні додатки</h3>
+            <h3 class="work-proccess__subtitle">Десктопні додатки</h3>
           </li>
-          <li class="work-proccess-item">
+          <li class="work-proccess__item">
             <img
               src="./images/our_team/what_we_do_pic2.jpg"
               alt="людина працює з телефоном і компютером"
               width="370"
             />
-            <h3 class="proccess-subtitle">Мобільні додатки</h3>
+            <h3 class="work-proccess__subtitle">Мобільні додатки</h3>
           </li>
-          <li class="work-proccess-item">
+          <li class="work-proccess__item">
             <img
-              class="img-proccess"
               src="./images/our_team/what_we_do_pic3.jpg"
               alt="людина малює на планшеті"
               width="370"
             />
-            <h3 class="proccess-subtitle">Дизайнерські рішення</h3>
+            <h3 class="work-proccess__subtitle">Дизайнерські рішення</h3>
           </li>
         </ul>
       </section>
