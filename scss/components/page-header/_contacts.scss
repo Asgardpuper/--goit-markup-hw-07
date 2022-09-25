@@ -7,9 +7,10 @@
   display: flex;
   align-items: center;
   cursor: pointer;
-  & + & {
-    margin-left: 50px;
-  }
+}
+
+.contacts-list__item--ml-30px + .contacts-list__item--ml-30px {
+  margin-left: 30px;
 }
 
 .contacts-list__logo {

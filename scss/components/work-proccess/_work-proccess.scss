@@ -2,35 +2,31 @@
   padding-top: 45px;
 }
 
-.work-proccess-title {
+.work-proccess__title {
   margin-bottom: 50px;
-
   text-align: center;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
 }
 
-.work-proccess-list {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.work-proccess__list {
+  @extend %flexModel;
 }
 
-.work-proccess-list .work-proccess-item {
+.work-proccess__item {
   position: relative;
-}
-
-.proccess-subtitle {
-  position: absolute;
-  width: 100%;
-  bottom: 0;
-  left: 0;
-  padding: 27px 0px;
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: 700;
-  line-height: 1.17;
-  color: var(--bgcolor);
-  background-color: rgba(47, 48, 58, 0.8);
+  .work-proccess__subtitle {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    padding: 27px 0px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1.17;
+    color: $color-white;
+    background-color: rgba(47, 48, 58, 0.8);
+  }
 }
