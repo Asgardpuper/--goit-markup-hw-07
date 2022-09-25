@@ -42,3 +42,10 @@
     opacity: 1;
   }
 }
+
+.nav-panel__link--active {
+  color: $color-accent;
+  &::after {
+    opacity: 1;
+  }
+}
